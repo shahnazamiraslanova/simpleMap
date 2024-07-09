@@ -1,0 +1,80 @@
+.container-width {
+    max-width: 61%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url('../fonts/MarkPro/MarkPro.ttf') format('truetype');
+
+}
+.mapMainTitle {
+    background: url('https://ttkf.edu.az/frq-templates/assets/img/actLeft.svg') no-repeat left bottom, url('https://ttkf.edu.az/frq-templates/assets/img/actRight.svg') no-repeat right bottom, #e9ebee;
+    height: 217px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: linear-gradient(0deg, rgba(1, 50, 92, 0.05), rgba(1, 50, 92, 0.05)),
+        linear-gradient(0deg, #E9EBEE, #E9EBEE);
+    text-align: center;
+    font-family: 'MarkPro', sans-serif;
+}
+
+.mapMainTitle .container-width{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mapMainTitle h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+    color: #1268B3;
+
+
+}
+.mapMainTitle p,
+p a {
+    color: #1268B3;
+    font-weight: 700;
+
+}
+.mapMainTitle p a:first-child {
+    color: #82A9D6;
+
+}
+.mapMainTitle .container-width span{
+display: block;
+width: 62px;
+height: 0px;
+border: 3px solid #1268B3;
+border-radius:2px ;
+
+}
+
+.mapMain {
+    background: url('https://ttkf.edu.az/frq-templates/assets/img/bcg.svg')  ;
+    background-size: cover;
+    padding: 20px;
+
+}
+ 
+  .clickable-area {
+    cursor: pointer;
+    transition: transform 0.3s, filter 0.3s;
+  }
+
+  .info-box {
+    position: absolute;
+    display: none;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 100px ;
+    border-radius: 10px;
+  }
