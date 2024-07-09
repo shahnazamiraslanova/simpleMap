@@ -8,6 +8,7 @@
     src: url('../fonts/MarkPro/MarkPro.ttf') format('truetype');
 
 }
+
 .mapMainTitle {
     background: url('https://ttkf.edu.az/frq-templates/assets/img/actLeft.svg') no-repeat left bottom, url('https://ttkf.edu.az/frq-templates/assets/img/actRight.svg') no-repeat right bottom, #e9ebee;
     height: 217px;
@@ -21,12 +22,13 @@
     font-family: 'MarkPro', sans-serif;
 }
 
-.mapMainTitle .container-width{
+.mapMainTitle .container-width {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .mapMainTitle h1 {
     font-style: normal;
     font-weight: 700;
@@ -37,44 +39,74 @@
 
 
 }
+
 .mapMainTitle p,
 p a {
     color: #1268B3;
     font-weight: 700;
 
 }
+
 .mapMainTitle p a:first-child {
     color: #82A9D6;
 
 }
-.mapMainTitle .container-width span{
-display: block;
-width: 62px;
-height: 0px;
-border: 3px solid #1268B3;
-border-radius:2px ;
+
+.mapMainTitle .container-width span {
+    display: block;
+    width: 62px;
+    height: 0px;
+    border: 3px solid #1268B3;
+    border-radius: 2px;
 
 }
 
 .mapMain {
-    background: url('https://ttkf.edu.az/frq-templates/assets/img/bcg.svg')  ;
+    background: url('https://ttkf.edu.az/frq-templates/assets/img/bcg.svg');
     background-size: cover;
     padding: 20px;
 
 }
- 
-  .clickable-area {
+
+.clickable-area {
     cursor: pointer;
     transition: transform 0.3s, filter 0.3s;
-  }
+}
 
-  .info-box {
+.info-box {
     position: absolute;
     display: none;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    width: 100px ;
-    border-radius: 10px;
-  }
+    font-family: 'MarkPro', sans-serif;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    position: absolute;
+    width: 240px;
+    height: 196px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 4px 10px rgba(3, 40, 73, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+
+}
+
+.info-box div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.info-box>div {
+    margin-top: 15px;
+}
+
+.info-box h5 {
+    font-weight: bold;
+}
